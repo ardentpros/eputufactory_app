@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include eputufactory_app *.css
+recursive-include eputufactory_app *.csv
+recursive-include eputufactory_app *.html
+recursive-include eputufactory_app *.ico
+recursive-include eputufactory_app *.js
+recursive-include eputufactory_app *.json
+recursive-include eputufactory_app *.md
+recursive-include eputufactory_app *.png
+recursive-include eputufactory_app *.py
+recursive-include eputufactory_app *.svg
+recursive-include eputufactory_app *.txt
+recursive-exclude eputufactory_app *.pyc
