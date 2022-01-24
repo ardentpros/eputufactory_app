@@ -89,13 +89,11 @@ app_license = "MIT"
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-# 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-#	}
-# }
+doc_events = {
+	"Sales Invoice": {
+		    "validate": "eputufactory_app.events.sales_invoice.validate"
+	}
+}
 
 # Scheduled Tasks
 # ---------------
@@ -172,4 +170,3 @@ user_data_fields = [
 # auth_hooks = [
 # 	"eputufactory_app.auth.validate"
 # ]
-
