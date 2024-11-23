@@ -11,7 +11,7 @@ def validate(doc, event):
         party_type='Customer',
         party=doc.customer
     )
-    doc.customer_balance = balance
+    doc.custom_customer_balance = balance
     doc.as_at = frappe.utils.today()
     #doc = frappe.get_doc('Sales Invoice', doc.name)
     #doc.db_set('customer_balance', balance)
